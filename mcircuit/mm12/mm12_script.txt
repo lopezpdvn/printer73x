@@ -1,0 +1,111 @@
+0 4 acceleration
+100 4 speed
+
+sub x_neg_pulse
+  6800 0 servo          # set direction
+  5600 1 servo
+  1 delay
+  6800 1 servo
+  1 delay
+  quit
+
+sub x_pos_pulse
+  5600 0 servo          # set direction
+  5600 1 servo
+  1 delay
+  6800 1 servo
+  1 delay
+  quit
+
+sub x_neg_pixel
+  180
+  6800 0 servo          # set direction
+  begin
+    dup
+    while
+    5600 1 servo
+    1 delay
+    6800 1 servo
+    1 delay
+    1 minus
+  repeat
+  quit
+
+sub x_pos_pixel
+  180
+  5600 0 servo          # set direction
+  begin
+    dup
+    while
+    5600 1 servo
+    1 delay
+    6800 1 servo
+    1 delay
+    1 minus
+  repeat
+  quit
+
+sub y_neg_pulse
+  5600 2 servo          # set direction
+  5600 3 servo
+  1 delay
+  6800 3 servo
+  1 delay
+  quit
+
+sub y_pos_pulse
+  6800 2 servo          # set direction
+  5600 3 servo
+  1 delay
+  6800 3 servo
+  1 delay
+  quit
+
+sub y_neg_pixel
+  180
+  5600 2 servo          # set direction
+  begin
+    dup
+    while
+    5600 3 servo
+    1 delay
+    6800 3 servo
+    1 delay
+    1 minus
+  repeat
+  quit
+
+sub y_pos_pixel
+  180
+  6800 2 servo          # set direction
+  begin
+    dup
+    while
+    5600 3 servo
+    1 delay
+    6800 3 servo
+    1 delay
+    1 minus
+  repeat
+  quit
+
+sub z_position_off
+  6320 4 servo
+  begin
+    get_moving_state
+  while
+    # wait until is is no longer moving.
+  repeat
+  75 delay
+  quit
+
+sub z_position_on
+  3760 4 servo
+  begin
+    get_moving_state
+  while
+    # wait until is is no longer moving.
+  repeat
+  75 delay
+  quit
+

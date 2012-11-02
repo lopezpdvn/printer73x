@@ -1,0 +1,35 @@
+Notas para la ejecución de la interfaz.
+
+1. El primer paso y más importante, es colocar todos los archivos en el espacio titulado "Current folder"
+que es la ventana que se encuentra al lado izquierdo de la "Command window", dentro del prograa matlab.
+Es indispensable realizar este paso ya que dentro de la programación de la interfaz se está haciendo referencia
+a esa localidad.
+
+2. Una vez copiados los archivos, ejecutar "IMTC.m" y darle click al boton de "play", que es el triángulo estandar
+para dar inicio a una acción en cualquier dispositivo. esto abrirá la interfaz principal de matlab donde se 
+llevará a cabo la conversión de las imágenes.
+
+
+3. A continuación, dar click en "Cargar imagen". Las imágenes que vayan a someterse a la detección de bordes deben
+estar en "Current folder", ya que el programa unicamente hace referencia a esa ubicación. Para fines prácticos agregué
+la imagen titulada "D.png"
+
+IMPORTANTE: La interfaz sólo realizará conversiones de formatos png. Esto se puede cambiar pero se adecuó a los
+requerimientos que solicitaba el programa principal de Pedro.
+
+4. Una vez abierta la imagen dar click en "Guardar imagen". La imagen debe guardarse UNICAMENTE con el nombre de 
+"Edge.png" de lo contrario no se llevará a cabo ningún proceso.
+
+5. Una vez guardada, dar click en "Detección de bordes" y esperar a que el programa indique que el proceso ha finalizado.
+Esta acción puede TARDAR DESDE UNOS CUANTOS SEGUNDOS HASTA 1 MINUTO APROXIMADAMENTE, dependiendo de la imagen cargada.
+
+6. Una vez que el programa indica que el proceso ha terminado, dar click en "Resultados" para visualizar las 
+transformaciones. Automaticamente se GUARDO UNA IMAGEN EN "Current folder", con el título de "Bordes. png", que es
+el resultado final de la transformación.
+
+7. Leyendo el paso anterior, no es necesario dar click en "Guardar imagen", ya que esta se genera automaticamente
+al llevar a cabo la detección de bordes.
+
+8. Finalmente se copia la imagen "Bordes.png" y se pega en el escritorio o en alguna otra parte para visualizarla
+fuera de la interfaz de matlab, ya que en ella no se alcanza a visualizar claramente el resultado (SE PIERDE
+RESOLUCION).
