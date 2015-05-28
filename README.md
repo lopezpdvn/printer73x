@@ -31,7 +31,8 @@ Description of the distribution directories and files:
 
 ## Installation
 
-See section *Installation* in project's documentation.
+See section *Installation* in project's documentation ([online
+version](http://lopezpdvn.github.io/printer73x)).
 
 ## Credits
 
