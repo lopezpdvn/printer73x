@@ -2,7 +2,7 @@
 
 **A CNC printer for binary images**
 
-- [Project's website](http://www.dreilopz.me/printer73x "printer73x project's website")
+- [Project's website](http://pedroivanlopez.com/printer73x "printer73x project's website")
 - [Video demonstrations](http://www.youtube.com/playlist?list=PL7141B5B35BD03A5E. "Video demonstrations at YouTube")
 
 **printer73x** is a CNC system for printing binary images.  printer73x was
@@ -53,4 +53,4 @@ Software and electronic design and implementation:
 
 - Iván García González
 
-- Pedro I. Lopez
+- [Pedro Ivan Lopez](http://pedroivanlopez.com "Pedro Ivan Lopez's website")
