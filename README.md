@@ -3,7 +3,10 @@
 **A CNC printer for binary images**
 
 - [Project's website](http://pedroivanlopez.com/printer73x "printer73x project's website")
-- [Video demonstrations](http://www.youtube.com/playlist?list=PL7141B5B35BD03A5E. "Video demonstrations at YouTube")
+- Video demonstrations:
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL7141B5B35BD03A5E" frameborder="0" allowfullscreen></iframe>
+
 
 **printer73x** is a CNC system for printing binary images.  printer73x was
 developed for the school courses *734 - PROYECTO DE IMTC I* and
