@@ -1,0 +1,5 @@
+*~
+*.pyc
+printerc/log.rst
+doc/build
+*swp
